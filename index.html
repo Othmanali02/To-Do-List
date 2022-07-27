@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+    <script src="js/index.js"></script>
+	
+</head> 
+<body>
+    <h1 class="Oth">
+        Othman's To Do List 
+    </h1> 
+
+    <button class="btn">
+        <a id="link" href="#divOne">Add Task</a>
+    </button>
+    <div class="overlay" id="divOne">
+		<div class="wrapper"> 
+			<h2>Add New Task</h2>
+            <a class="close" href="#">&times;</a>
+			<div class="content">
+				<div class="container">
+					<form>
+						<label>Task Title</label>
+						<input id="titleInput" placeholder="Task Name" type="text">
+
+						<label>Task Priority</label>						
+
+						<div id="Radios">
+					
+							<label id="Normal" class="radio">Normal
+								<input id="normal" type="checkbox" onclick="Radios(this)" name="priority">
+							</label>
+							  
+							<label id="Important" class="radio">Important
+								<input id="important" type="checkbox" onclick="Radios(this)" name="priority">
+							</label>
+							  
+							<label id="Critical" class="radio">Critical
+								<input id="critical" type="checkbox" onclick="Radios(this)" name="priority">
+							</label>
+							
+						</div>
+
+                        <label>Task Date</label>
+						<input placeholder="Task Date" id="dateInput" type="date">
+                        <label>Task Time</label>
+						<input placeholder="Task Time" id="timeInput" type="time">
+						<label>Task Description</label> 
+						<textarea id="desc" placeholder="Describe your errand"></textarea>
+
+						<button id="submit" onclick="formValidation()">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="Errands"></div>
+
+      
+    
+</body>
+</html>

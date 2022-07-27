@@ -1,0 +1,62 @@
+[
+    {
+     "id": 1,
+     "title": "Buy Groceries",
+     "priority": "Normal",
+     "day": "Monday",
+     "date": "July 25th, 2022",
+     "time": "2:00pm",
+     "description": "",
+     "completed": false
+    },
+    {
+     "id": 2,
+     "title": "Print book",
+     "priority": "Normal",
+     "day": "Saturday",
+     "date": "July 29th, 2022",
+     "time": "6:00pm",
+     "description": "Go to the library and print the CSS Mastery book",
+     "completed": true
+    },
+    {
+     "id": 3,
+     "title": "Order Amazon cart",
+     "priority": "Very Important",
+     "day": "Sunday",
+     "date": "August 25th, 2022",
+     "time": "5:30pm",
+     "description": "Borrow your dads credit card and buy that shit",
+     "completed": true
+    },
+    {
+     "id": 4,
+     "title": "Learn JSON formatting",
+     "priority": "Very Important",
+     "day": "Thursday",
+     "date": "September 16th, 2022",
+     "time": "9:00pm",
+     "description": "",
+     "completed": true
+    },
+    {
+     "id": 5,
+     "title": "Learn React and Node",
+     "priority": "Very Important",
+     "day": "Monday",
+     "date": "October 30th, 2022",
+     "time": "10:30pm",
+     "description": "Go to Udemy and learn that shit", 
+     "completed": false
+    },
+    {
+     "id": 6,
+     "title": "Create a very Successful Company",
+     "priority": "Critical",
+     "day": "Thursday",
+     "date": "Decemeber 31st, 2023",
+     "time": "12:34am",
+     "description": "Do your thang home boy",
+     "completed": false
+    }
+]

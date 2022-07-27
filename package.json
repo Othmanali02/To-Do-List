@@ -1,0 +1,15 @@
+{
+  "name": "restful-to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Othman Ali",
+  "license": "ISC",
+  "dependencies": {
+    "browserify-fs": "^1.0.0",
+    "file-system": "^2.2.2"
+  }
+}
